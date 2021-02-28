@@ -141,7 +141,7 @@ for s in sen:
 
 partits_avui.sort()
 
-f3=open("partits_avui.txt","w")
+f3=open("partits_avui.txt","w",encoding="UTF-8")
 for i in range(len(partits_avui)):
     f3.write("{}\n".format(partits_avui[i].replace("\n","")))
 
