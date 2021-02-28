@@ -46,7 +46,7 @@ partits_avui=[]
 #driver = webdriver.Chrome(executable_path = "C:\\driver\\chromedriver")
 driver = webdriver.Firefox(executable_path = "C:\\driver\\geckodriver.exe")
 
-url = 'https://www.flashscore.com'
+url = 'https://www.mismarcadores.com'
 
 driver.get(url)
 
